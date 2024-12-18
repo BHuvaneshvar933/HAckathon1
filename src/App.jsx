@@ -5,7 +5,11 @@ import FeaturesSection from './FeaturesSection';
 import Footer from './Footer';
 import 'font-awesome/css/font-awesome.min.css';
 import ParticleBackground from "./ParticleBackground";
+import 'animate.css';
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // Don't forget to import the AOS styles!
 
+AOS.init();
 const App = () => {
   return (
     
@@ -13,6 +17,7 @@ const App = () => {
       <ParticleBackground/>
       <Navbar />
       <HeroSection />
+      
       <FeaturesSection />
       <Footer />
     </div>

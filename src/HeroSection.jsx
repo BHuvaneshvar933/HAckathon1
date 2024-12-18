@@ -8,7 +8,7 @@ const HeroSection = () => (
     <p className="text-lg sm:text-xl mb-8 mx-auto slideUp  text-center text-neutral-300 max-w-4xl" id='normalText'>
       MVJ 8 hour hackathon.
     </p>
-    <a href="#features" className="bg-white #1E2A47 py-3 px-8 rounded-full text-lg font-semibold hoverScale bg-gradient-to-r from-purple-500 to-purple-800">
+    <a href="#features" className="bg-white #1E2A47 py-3 px-8 rounded-full text-lg font-semibold hoverScale bg-gradient-to-r from-purple-500 to-purple-800  text-white  shadow-neon hover:shadow-neon-hover" id='neon-button'>
       Explore Features
     </a>
   </section>
