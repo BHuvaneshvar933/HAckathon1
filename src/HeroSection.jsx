@@ -11,6 +11,9 @@ const HeroSection = () => (
     <a href="#features" className="bg-white #1E2A47 py-3 px-8 rounded-full text-lg font-semibold hoverScale bg-gradient-to-r from-purple-500 to-purple-800  text-white  shadow-neon hover:shadow-neon-hover" id='neon-button'>
       Safety Tips
     </a>
+    <a href="#features" className="bg-white #1E2A47 py-3 px-8 rounded-full text-lg font-semibold hoverScale bg-gradient-to-r from-purple-500 to-purple-800  text-white  shadow-neon hover:shadow-neon-hover" id='neon-button'>
+      SOS
+    </a>
   </section>
 );
 
