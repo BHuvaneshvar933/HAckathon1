@@ -9,7 +9,7 @@ import 'animate.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // Don't forget to import the AOS styles!
 import GDACSData from "./GDACSData";
-
+import UserLocationMap from './UserLocationMap';
 AOS.init();
 const App = () => {
   return (
@@ -19,6 +19,7 @@ const App = () => {
       <Navbar />
       <HeroSection />
       <GDACSData/>
+      <UserLocationMap/>
       <FeaturesSection />
       <Footer />
     </div>
