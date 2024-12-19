@@ -8,6 +8,7 @@ import ParticleBackground from "./ParticleBackground";
 import 'animate.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // Don't forget to import the AOS styles!
+import GDACSData from "./GDACSData";
 
 AOS.init();
 const App = () => {
@@ -17,7 +18,7 @@ const App = () => {
       <ParticleBackground/>
       <Navbar />
       <HeroSection />
-      
+      <GDACSData/>
       <FeaturesSection />
       <Footer />
     </div>

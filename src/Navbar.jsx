@@ -6,11 +6,11 @@ const Navbar = () => {
   return (
     <nav className=" backdrop-blur-lg fixed top-0 left-0 w-full z-50 shadow-lg border-b border-neutral-700/80 " id="navbar">
       <div className="container mx-auto px-6 py-4 flex justify-between items-center">
-        <div className="text-white text-3xl font-semibold" id='heading'>YourLogo</div>
+        <div className="text-white text-3xl font-semibold" id='heading'>DisasterInfo</div>
         <div className="hidden md:flex space-x-9">
           <a href="#home" className="text-gray-400 hover:text-white ">Home</a>
-          <a href="#features" id="navbuttons" className="text-gray-400 hover:text-white mx-4">Features</a>
-          <a href="#contact" className="text-gray-400 hover:text-white mx-4">Contact</a>
+          <a href="#features" id="navbuttons" className="text-gray-400 hover:text-white mx-4">Emergency</a>
+          <a href="#contact" className="text-gray-400 hover:text-white mx-4">Login</a>
         </div>
         <div className="md:hidden">
           <button 
